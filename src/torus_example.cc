@@ -42,7 +42,7 @@ typename Grid::ctype L_error (const Grid& grid)
  for (const auto& element : elements(grid.leafGridView()))
   {
  auto geo=element.geometry();
-const auto& quadRule = QuadProvider::rule(element.type(), 12);
+const auto& quadRule = QuadProvider::rule(element.type(), quad_order);
     for (const auto& quadPoint : quadRule) 
     {
 
