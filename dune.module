@@ -1,0 +1,12 @@
+################################
+# Dune module information file #
+################################
+
+# Name of the module
+Module: code
+Version: 1.0
+Maintainer: g.zavalani@hzdr.de
+# Required build dependencies
+Depends: dune-common dune-istl dune-uggrid dune-geometry dune-localfunctions dune-grid dune-typetree dune-functions dune-foamgrid dune-vtk dune-curvedgeometry dune-curvedgrid dune-gmsh4
+# Optional build dependencies
+#Suggests:
