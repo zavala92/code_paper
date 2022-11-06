@@ -1,4 +1,4 @@
-# code_paper
+
 Code to produce the results in the paper "A note on the rate of convergence of integration schemes for closed surfaces" by Gentian Zavalani and Elima Shehu
 
 
