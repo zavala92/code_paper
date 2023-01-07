@@ -3,7 +3,6 @@ Code to produce the results in the paper "A note on the rate of convergence of i
 
 
 # "A note on the rate of convergence of integration schemes for closed surfaces"
-Find the source at 
 
 ## Preparing the Sources
 This project is developed in the [DUNE](https://dune-project.org) framework.
