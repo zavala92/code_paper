@@ -61,3 +61,8 @@ cd my_dune/code
 cd my_dune/code
 ./build-cmake/src/torus_example
 ```
+
+```bash
+cd my_dune/code
+./build-cmake/src/ellipsoid_example
+```
