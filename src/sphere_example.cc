@@ -69,6 +69,7 @@ int main(int argc, char** argv)
   // Construct a reference grid
 
 auto refGrid = Gmsh4Reader<FoamGrid<2,3>>::createGridFromFile(DUNE_GRID_PATH "sphere.msh");
+//auto gridFct=[](const auto& x) {return x/x.two_norm();};
   // Define the levelset function
   using Signature = double(FieldVector<double,3>);
   auto psi = Functions::makeDifferentiableFunctionFromCallables(
